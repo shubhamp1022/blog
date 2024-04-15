@@ -1,0 +1,62 @@
+.contact-content {
+  height: 100vh;
+  margin-top: 32px;
+  padding: 9px;
+  position: relative;
+  overflow: hidden;
+}
+
+.contact-content::after {
+  content: "";
+  background-image: url("../img/11.svg");
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: inherit;
+  opacity: 0.15;
+  border-radius: 12px;
+  z-index: -1;
+}
+
+form {
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  padding: 10%;
+  color: rgb(9, 1, 7);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.from {
+  background-image: url('https://media.istockphoto.com/id/1153130142/photo/businessman-touching-icon-mobile-phone-mail-telephone-and-address-customer-service-call.jpg?s=612x612&w=0&k=20&c=r4PWtYlcfYU_6YUxdz2LbVgSDuXDwo_Hr62o7USYaiA=');
+  background-repeat: no-repeat;
+
+  background-size: cover;
+}
+
+.foote {
+  background-color: rgb(171, 153, 131);
+  color: #dc1212;
+  border-radius: 1cm;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 1%;
+}
+
+body {
+  display: grid;
+}
+
+#sub {
+  padding: 1px;
+  width: 15%;
+  background-color: bisque;
+  border-radius: 1cm;
+}
+
+.harsh {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}

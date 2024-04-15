@@ -1,0 +1,19 @@
+body {
+    width: 100%;
+    color: bisque;
+}
+
+
+.widt {
+    width: 70%;
+}
+
+.foote {
+    background-color: bisque;
+    color: brown;
+    border-radius: 1cm;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 1%;
+}
